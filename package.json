@@ -10,6 +10,8 @@
   "author": "Ludovic Bekaert",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
+    "axios-mock-adapter": "^1.19.0",
     "clsx": "^1.1.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
