@@ -1,10 +1,13 @@
 import PropTypes from 'prop-types';
+import styles from './ListItem.module.css';
 
 function ListItem({
   children,
 }) {
   return (
-    <div>
+    <div
+      className={styles.root}
+    >
       { children}
     </div>
   )

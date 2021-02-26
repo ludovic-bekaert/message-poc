@@ -1,11 +1,11 @@
+import Layout from "./components/Layout";
 import Index from "./pages/Index";
 
 function App() {
   return (
-    <div>
-      Layout
+    <Layout>
       <Index />
-    </div>
+    </Layout>
   );
 }
 

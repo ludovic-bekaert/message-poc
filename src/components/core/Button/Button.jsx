@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import styles from './Button.module.css';
 
 function Button({
   type,
@@ -11,6 +12,7 @@ function Button({
       type={type}
       disabled={disabled}
       onClick={onClick}
+      className={styles.root}
     >{children}</button>
   );
 }

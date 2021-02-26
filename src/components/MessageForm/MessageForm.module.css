@@ -1,0 +1,11 @@
+.successMessage {
+  text-align: center;
+}
+.successMessage h2 {
+  font-size: 1.25rem;
+}
+.fieldset {
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0;
+}

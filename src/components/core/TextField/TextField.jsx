@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
 import Label from '../Label';
+import styles from './TextField.module.css';
 
 function TextField({
   autoFocus,
@@ -21,11 +22,12 @@ function TextField({
   return (
     <>
       {label && <Label htmlFor={id}>{label}</Label>}
-      <input
+      <textarea
         id={id}
         ref={ref}
         onChange={onChange}
         name={name}
+        className={styles.input}
       />
     </>
   );

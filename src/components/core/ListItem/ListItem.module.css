@@ -1,0 +1,8 @@
+.root {
+  background-color: #fff;
+  border: 1px #eee solid;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  white-space: pre-line;
+}
