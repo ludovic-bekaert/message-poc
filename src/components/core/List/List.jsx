@@ -4,7 +4,7 @@ function List({
   children,
 }) {
   return (
-    <div>
+    <div role="list">
       { children && <div>{children}</div>}
     </div>
   );

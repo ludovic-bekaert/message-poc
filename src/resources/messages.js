@@ -13,7 +13,6 @@ if (config.mock) {
   ]));
 
   mock.onPost('/messages').reply(({ data }) => new Promise((resolve, reject) => {
-    console.log(data);
     setTimeout(() => {
       resolve([200, data]);
     }, 2000);

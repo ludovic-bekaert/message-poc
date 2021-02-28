@@ -23,6 +23,7 @@ function TextField({
     <>
       {label && <Label htmlFor={id}>{label}</Label>}
       <textarea
+        role="textbox"
         id={id}
         ref={ref}
         onChange={onChange}

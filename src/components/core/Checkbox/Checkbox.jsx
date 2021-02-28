@@ -12,6 +12,7 @@ function Checkbox({
     <div>
       <input
         type="checkbox"
+        role="checkbox"
         id={id}
         name={name}
         onChange={onChange}

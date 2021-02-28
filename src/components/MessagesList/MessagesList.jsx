@@ -29,7 +29,7 @@ function MessagesList({
       <h1>Liste des messages</h1>
       { loading && <span>Chargement...</span>}
       { !loading && list && (
-        <List>
+        <List role="list">
           {list.map((item) => (
             <ListItem key={item.id}>
               { item.content}

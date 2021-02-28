@@ -75,11 +75,4 @@ function MessageForm() {
   );
 }
 
-MessageForm.propTypes = {
-  /**
-   * Function called on form submission
-   */
-  onSubmit: PropTypes.func.isRequired,
-};
-
 export default MessageForm;
